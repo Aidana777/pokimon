@@ -1,0 +1,22 @@
+
+
+.ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.imgs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+}
